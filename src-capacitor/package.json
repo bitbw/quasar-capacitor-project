@@ -5,9 +5,11 @@
   "author": "zhangbowen <18211132604@163.com>",
   "private": true,
   "dependencies": {
-    "@capacitor/android": "^6.0.0",
-    "@capacitor/app": "^6.0.0",
-    "@capacitor/cli": "^6.0.0",
-    "@capacitor/core": "^6.0.0"
+    "@capacitor-community/bluetooth-le": "^6.0.1",
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/app": "^6.1.2",
+    "@capacitor/cli": "^6.1.2",
+    "@capacitor/core": "^6.1.2",
+    "@spryrocks/capacitor-socket-connection-plugin": "^2.3.0"
   }
 }

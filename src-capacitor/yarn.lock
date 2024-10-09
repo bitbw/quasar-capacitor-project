@@ -2,17 +2,24 @@
 # yarn lockfile v1
 
 
-"@capacitor/android@^6.0.0":
+"@capacitor-community/bluetooth-le@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@capacitor-community/bluetooth-le/-/bluetooth-le-6.0.1.tgz#d30d621476d11a13d0b77b57e815ba867480884c"
+  integrity sha512-ouMSW6ymhB4KAhl2uAcxWNGhMj5onqopQdixGyW8PWOc+KxpCnqkQNZ6MzRuGZUJUfdiJ28p6p64FAoTH2cy+Q==
+  dependencies:
+    "@types/web-bluetooth" "^0.0.20"
+
+"@capacitor/android@^6.1.2":
   version "6.1.2"
   resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-6.1.2.tgz#7c767af5d8f708f19a1abcd9db38b458a76adb14"
   integrity sha512-Yh0gQDY1bgRrL25J6ecIlvvs2kF8iNSwIPXjyw6Yz9mnwYxBazF5KZbjpKtGPnJgicJhFkYGsqOkEtxrve0EoQ==
 
-"@capacitor/app@^6.0.0":
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/@capacitor/app/-/app-6.0.1.tgz#601878ea1b4488a9a89b61b437644bbe134a0532"
-  integrity sha512-0kXbOl7LPPMFVcAii3u/7Ps0DvXlr7dtHT97r9J1faDlgdQLQUvtGp48tjvFm48gqHI0aOPRJnTBr5JXW4ETYg==
+"@capacitor/app@^6.1.2":
+  version "7.0.0-nightly-20241008T150529.0"
+  resolved "https://registry.yarnpkg.com/@capacitor/app/-/app-7.0.0-nightly-20241008T150529.0.tgz#918088f33674e7e5c5a6bb7b55ef2b84d8c4b93f"
+  integrity sha512-hxMCx2Oag9qSSh2/ompI5TNOMgOxHNMcfLHH6ek0FoBX9XonBWVsaZgYiDDfvOdGB+pFqOyWq+JP2xbhf14uYA==
 
-"@capacitor/cli@^6.0.0":
+"@capacitor/cli@^6.1.2":
   version "6.1.2"
   resolved "https://registry.yarnpkg.com/@capacitor/cli/-/cli-6.1.2.tgz#b464c28f535cb4dcdf55de139cc07f302b2c98c1"
   integrity sha512-HKCNGE0RP8U7aiEF2vg5wTivJROS8BVfu8a3yYJb1mRQvzv+czpmtHNsTWS/WukvwoxUjyjRmsNQSAACHfMTmQ==
@@ -36,7 +43,7 @@
     tslib "^2.4.0"
     xml2js "^0.5.0"
 
-"@capacitor/core@^6.0.0":
+"@capacitor/core@^6.1.2":
   version "6.1.2"
   resolved "https://registry.yarnpkg.com/@capacitor/core/-/core-6.1.2.tgz#a072e78b46693a6a47047cfc90d5f7cc48299fe9"
   integrity sha512-xFy1/4qLFLp5WCIzIhtwUuVNNoz36+V7/BzHmLqgVJcvotc4MMjswW/TshnPQaLLujEOaLkA4h8ZJ0uoK3ImGg==
@@ -172,6 +179,55 @@
     untildify "^4.0.0"
     wrap-ansi "^7.0.0"
 
+"@spryrocks/capacitor-socket-connection-plugin@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@spryrocks/capacitor-socket-connection-plugin/-/capacitor-socket-connection-plugin-2.3.0.tgz#eb1241fa2a82236732dae242382c9d8a8421e3b1"
+  integrity sha512-STvnUAwCZqJwQCj0JVgVzmpUs5OKLz6Q00+sH3UIi6jPWOakNWJzlWtpwSnww9WMYqewvz7p8J+GMUXHEnE+zQ==
+  dependencies:
+    "@spryrocks/logger-plugin" "^0.1.17-alpha.2"
+
+"@spryrocks/logger-core@^0.1.17-alpha.0":
+  version "0.1.17-alpha.0"
+  resolved "https://registry.yarnpkg.com/@spryrocks/logger-core/-/logger-core-0.1.17-alpha.0.tgz#574b1231b633586bdd829f6bb0b5880b2a317167"
+  integrity sha512-m2vY5EhOv8rz8vyIh0agioKm5W/ETMvq0gmAEM+Jg2V8ciK+UTyT7dAkXnZelscuaB+tLDWqS/J2cnaNhQc2lA==
+
+"@spryrocks/logger-observer@^0.1.17-alpha.2":
+  version "0.1.17-alpha.2"
+  resolved "https://registry.yarnpkg.com/@spryrocks/logger-observer/-/logger-observer-0.1.17-alpha.2.tgz#7089773ffb422a2e95d1a5edd6ce1e1ab1eb3a01"
+  integrity sha512-NlrVcCTOhTXaheye3U6dyhlqoN3SkZVQycBZJ5r4oqiL3ziiTAjTJ/DRS4PiwixE1yugaUfKZW02o5cQ41RqNQ==
+  dependencies:
+    "@spryrocks/logger-core" "^0.1.17-alpha.0"
+
+"@spryrocks/logger-plugin-core@^0.1.17-alpha.0":
+  version "0.1.17-alpha.0"
+  resolved "https://registry.yarnpkg.com/@spryrocks/logger-plugin-core/-/logger-plugin-core-0.1.17-alpha.0.tgz#84fb20f978a00219f732c7615109a01ee98522e8"
+  integrity sha512-bgQcfWn+eYpff1Gsof/Pm8aQchZhBhm4ctKh9c4otkwpOVvW6ob3guyUBkV/xAeEzdPdeYTtqSBiOB2xzvVRsw==
+  dependencies:
+    "@spryrocks/logger-core" "^0.1.17-alpha.0"
+
+"@spryrocks/logger-plugin-observer@^0.1.17-alpha.2":
+  version "0.1.17-alpha.2"
+  resolved "https://registry.yarnpkg.com/@spryrocks/logger-plugin-observer/-/logger-plugin-observer-0.1.17-alpha.2.tgz#64d2f59a449e988a4fe70ef402ed458c2675e0c8"
+  integrity sha512-veZXAEQy0txmMCMOAr0nB4E3fN1Qa9waGcM5VUW9Rzq2/3NLQXPGCu1DTjVRSktbCbf7BgQOlqHWXlBRrd9qCw==
+  dependencies:
+    "@spryrocks/logger-observer" "^0.1.17-alpha.2"
+    "@spryrocks/logger-plugin-core" "^0.1.17-alpha.0"
+
+"@spryrocks/logger-plugin@^0.1.17-alpha.2":
+  version "0.1.17-alpha.2"
+  resolved "https://registry.yarnpkg.com/@spryrocks/logger-plugin/-/logger-plugin-0.1.17-alpha.2.tgz#12662d43e9f2ffb5d0ad87e351408bdfbed997e7"
+  integrity sha512-meq63XwkpMv9LdIsoOxIby1bi8BciSd3dAo60sD0dLB9FeB7GDP38FAYsSi09sN7+FxZq5uqn8Ug7TYk+Fdxdg==
+  dependencies:
+    "@spryrocks/logger" "^0.1.17-alpha.2"
+    "@spryrocks/logger-plugin-observer" "^0.1.17-alpha.2"
+
+"@spryrocks/logger@^0.1.17-alpha.2":
+  version "0.1.17-alpha.2"
+  resolved "https://registry.yarnpkg.com/@spryrocks/logger/-/logger-0.1.17-alpha.2.tgz#c02ecf89eb57f1f7680852110055181f5cebd32b"
+  integrity sha512-HRVz+JDqAQ0N8D9rp93tV3gGyhwN6ZdI2vBWKftgXPCd0cle/GkSL3Wjj8P3F6kNcky2/xv0dyROGWIcLQoxSQ==
+  dependencies:
+    "@spryrocks/logger-observer" "^0.1.17-alpha.2"
+
 "@types/fs-extra@^8.0.0":
   version "8.1.5"
   resolved "https://registry.yarnpkg.com/@types/fs-extra/-/fs-extra-8.1.5.tgz#33aae2962d3b3ec9219b5aca2555ee00274f5927"
@@ -190,6 +246,11 @@
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@types/slice-ansi/-/slice-ansi-4.0.0.tgz#eb40dfbe3ac5c1de61f6bcb9ed471f54baa989d6"
   integrity sha512-+OpjSaq85gvlZAYINyzKpLeiFkSC4EsC6IIiT6v6TLSU5k5U83fHGj9Lel8oKEXM0HqgrMVCjXPDPVICtxF7EQ==
+
+"@types/web-bluetooth@^0.0.20":
+  version "0.0.20"
+  resolved "https://registry.yarnpkg.com/@types/web-bluetooth/-/web-bluetooth-0.0.20.tgz#f066abfcd1cbe66267cdbbf0de010d8a41b41597"
+  integrity sha512-g9gZnnXVq7gM7v3tJCWV/qw7w+KeOlSHAhgF9RytFyifW6AF61hdT2ucrYhPq9hLs5JIryeupHV3qGk95dH9ow==
 
 "@xmldom/xmldom@^0.8.8":
   version "0.8.10"

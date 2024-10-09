@@ -1,5 +1,15 @@
 {
   "appId": "org.capacitor.quasar.app",
   "appName": "Quasar App",
-  "webDir": "www"
+  "webDir": "www",
+  "plugins": {
+    "BluetoothLe": {
+      "displayStrings": {
+        "scanning": "扫描中...",
+        "cancel": "取消",
+        "availableDevices": "可用设备列表",
+        "noDeviceFound": "未找到设备"
+      }
+    }
+  }
 }
