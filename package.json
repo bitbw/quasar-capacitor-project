@@ -13,7 +13,7 @@
     "dev": "quasar dev",
     "build": "quasar build",
     "dev:android": "quasar dev -m capacitor -T android",
-    "build:android": "quasar build -m capacitor -T android –ide",
+    "build:android": "quasar build -m capacitor -T android",
     "prepare": "cd src-capacitor && yarn"
   },
   "dependencies": {

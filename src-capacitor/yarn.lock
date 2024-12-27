@@ -14,10 +14,10 @@
   resolved "https://registry.yarnpkg.com/@capacitor/android/-/android-6.1.2.tgz#7c767af5d8f708f19a1abcd9db38b458a76adb14"
   integrity sha512-Yh0gQDY1bgRrL25J6ecIlvvs2kF8iNSwIPXjyw6Yz9mnwYxBazF5KZbjpKtGPnJgicJhFkYGsqOkEtxrve0EoQ==
 
-"@capacitor/app@^6.1.2":
-  version "7.0.0-nightly-20241008T150529.0"
-  resolved "https://registry.yarnpkg.com/@capacitor/app/-/app-7.0.0-nightly-20241008T150529.0.tgz#918088f33674e7e5c5a6bb7b55ef2b84d8c4b93f"
-  integrity sha512-hxMCx2Oag9qSSh2/ompI5TNOMgOxHNMcfLHH6ek0FoBX9XonBWVsaZgYiDDfvOdGB+pFqOyWq+JP2xbhf14uYA==
+"@capacitor/app@^6.0.2":
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/@capacitor/app/-/app-6.0.2.tgz#bf33d4e0882962f1f8a82481faad344053b0cd3f"
+  integrity sha512-SiGTGgslK4TbWJVImCUL1odul7/YFkVfkYtAYS9AAEzQpxBECBeRnuN3FFBcfZ9eiN1XxFBFchhiwpxtx/c7yQ==
 
 "@capacitor/cli@^6.1.2":
   version "6.1.2"
